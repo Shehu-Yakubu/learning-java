@@ -4,9 +4,9 @@ public class Questions {
 
     public static void main(String[] args) {
         String question = "What's Nigeria's Capital called?";
-        String choiceOne = "Lagos";
-        String choiceTwo = "Abuja";
-        String choiceThree = "Kano";
+        String choiceOne = "lagos";
+        String choiceTwo = "abuja";
+        String choiceThree = "kano";
 
         String correctAnswer = choiceTwo;
 
@@ -16,7 +16,7 @@ public class Questions {
         Scanner input = new Scanner(System.in);
         String asnwer = input.next();
 
-        if (correctAnswer.equals(asnwer)) {
+        if (correctAnswer.equals(asnwer.toLowerCase())) {
             System.out.println("Congrats! That's the correct answer");
         } else {
             System.out.println("You're incorrect. The correct answer is " + correctAnswer);
