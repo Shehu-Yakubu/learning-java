@@ -21,6 +21,7 @@ public class MaterialRequisition {
         System.out.print("Staff Name: ");
         requestingStaff = scanner.nextLine();
 
+        
         System.out.print("HOD's Name: ");
         hodName = scanner.nextLine();
 
